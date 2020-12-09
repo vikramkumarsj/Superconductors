@@ -19,6 +19,6 @@ from pycaret.regression import *
 
 Model = load_model("/app/superconductors/Model/GBR_VK")
 
-image = Image.open('/app/Superconductors/Data/Shell_Image.jpg')
+image = Image.open("/app/superconductors/Data/Shell_Image.jpg")
 st.image(image)
 st.title("Digital Insights for grid connected electric vehicle charging stations") 
