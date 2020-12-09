@@ -5,3 +5,5 @@ pydeck==0.2.0
 Pillow==7.2.0
 matplotlib==3.3.0
 pycaret==2.0
+matplotlib.pyplot
+
