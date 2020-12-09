@@ -1,0 +1,13 @@
+Opening Note:
+
+Royal Dutch Shell has started to go big in EV charging stations and power generation.
+MicroGrid connected electric vehicle charging stations provides optimal energy management strategy and flexibility in terms of power and cost savings.
+
+It is important to generate 
+1. Insights for optimal Setting up electic charging stations in the gegraphical area of interests.
+2. Insights for optimal power supply for the electic charging stations.
+3. Insights for efficient managment of grid managed electric charging stations.
+
+through analysis of public and private electric vehicle data gathered around the geographical area of interest through mutually benifitting colloboration between
+shell and electric vehicle operators.
+

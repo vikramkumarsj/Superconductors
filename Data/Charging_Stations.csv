@@ -1,0 +1,108 @@
+Company,Station_ID,Place,Country,latitude,longitude,Other_Charging_Station_Nearby_Flag
+Shell,Shell_FL_1,Fort Lauderdale,USA,26.209148,-80.146341,1
+Shell,Shell_FL_2,Fort Lauderdale,USA,26.19313,-80.154581,1
+Shell,Shell_FL_3,Fort Lauderdale,USA,26.151533,-80.20299,1
+Shell,Shell_FL_4,Fort Lauderdale,USA,26.152766,-80.119219,1
+Shell,Shell_FL_5,Fort Lauderdale,USA,26.137356,-80.17827,1
+Shell,Shell_FL_6,Fort Lauderdale,USA,26.135815,-80.153551,1
+Shell,Shell_FL_7,Fort Lauderdale,USA,26.137014,-80.128832,1
+Shell,Shell_FL_8,Fort Lauderdale,USA,26.108347,-80.142908,2
+Shell,Shell_FL_9,Fort Lauderdale,USA,26.112046,-80.136729,2
+Shell,Shell_FL_10,Fort Lauderdale,USA,26.095706,-80.200587,2
+Chevron,Chevron_FL_1,Fort Lauderdale,USA,26.201414,-80.110293,1
+Chevron,Chevron_FL_2,Fort Lauderdale,USA,26.19248,-80.128489,1
+Chevron,Chevron_FL_3,Fort Lauderdale,USA,26.16814,-80.126085,2
+Chevron,Chevron_FL_4,Fort Lauderdale,USA,26.108039,-80.136728,2
+Chevron,Chevron_FL_5,Fort Lauderdale,USA,26.093856,-80.136042,2
+Shell,Shell_CLB_1,Columbus,USA,40.147476,-82.964487,1
+Shell,Shell_CLB_2,Columbus,USA,40.104752,-83.091453,1
+Shell,Shell_CLB_3,Columbus,USA,40.087886,-82.99822,1
+Shell,Shell_CLB_4,Columbus,USA,40.085958,-82.974915,1
+Shell,Shell_CLB_5,Columbus,USA,40.065173,-83.092716,1
+Shell,Shell_CLB_6,Columbus,USA,40.059927,-82.986883,1
+Shell,Shell_CLB_7,Columbus,USA,40.059927,-82.952867,1
+Shell,Shell_CLB_8,Columbus,USA,40.006388,-83.015228,2
+Shell,Shell_CLB_9,Columbus,USA,40.015071,-82.993496,2
+Shell,Shell_CLB_10,Columbus,USA,40.00132,-83.001372,2
+Shell,Shell_CLB_11,Columbus,USA,39.981051,-83.150037,1
+Shell,Shell_CLB_12,Columbus,USA,39.959565,-83.027828,1
+Shell,Shell_CLB_13,Columbus,USA,39.949425,-82.997904,2
+Shell,Shell_CLB_14,Columbus,USA,39.947977,-82.945935,2
+Shell,Shell_CLB_15,Columbus,USA,39.955704,-82.870655,2
+Shell,Shell_CLB_16,Columbus,USA,39.954578,-82.837583,1
+Shell,Shell_CLB_17,Columbus,USA,39.928174,-83.116975,1
+Shell,Shell_CLB_18,Columbus,USA,39.932039,-83.0384,1
+Shell,Shell_CLB_19,Columbus,USA,39.914887,-82.966408,1
+Shell,Shell_CLB_20,Columbus,USA,39.929864,-82.878531,1
+BP,BP_CLB_1,Columbus,USA,40.147016,-82.990094,1
+BP,BP_CLB_2,Columbus,USA,40.147016,-82.990094,1
+BP,BP_CLB_3,Columbus,USA,39.971032,-83.149471,2
+BP,BP_CLB_4,Columbus,USA,39.964754,-82.977494,2
+BP,BP_CLB_5,Columbus,USA,39.975996,-82.913869,2
+BP,BP_CLB_6,Columbus,USA,39.86764,-83.00647,1
+Shell,Shell_SD_1,San Diego,USA,32.937793,-117.22917,1
+Shell,Shell_SD_2,San Diego,USA,32.884429,-117.134042,2
+Shell,Shell_SD_3,San Diego,USA,32.840458,-117.098137,2
+Shell,Shell_SD_4,San Diego,USA,32.820345,-117.176882,2
+Shell,Shell_SD_5,San Diego,USA,32.794378,-117.156722,1
+Shell,Shell_SD_6,San Diego,USA,32.800752,-117.231683,1
+Shell,Shell_SD_7,San Diego,USA,32.726059,-117.226018,2
+Shell,Shell_SD_8,San Diego,USA,32.719704,-117.154843,2
+Shell,Shell_SD_9,San Diego,USA,32.683123,-117.110106,2
+Shell,Shell_SD_10,San Diego,USA,32.554719,-116.940648,1
+BP,BP_SD_01,San Diego,USA,32.539525,-117.093282,1
+Chevron,Chevron_SD_01,San Diego,USA,32.93947,-117.115383,2
+Chevron,Chevron_SD_02,San Diego,USA,32.824142,-117.147513,2
+Chevron,Chevron_SD_03,San Diego,USA,32.803494,-117.011448,2
+Chevron,Chevron_SD_04,San Diego,USA,32.749473,-117.205473,1
+Chevron,Chevron_SD_05,San Diego,USA,32.74788,-117.121689,1
+Chevron,Chevron_SD_06,San Diego,USA,32.68269,-117.112865,2
+Chevron,Chevron_SD_07,San Diego,USA,32.582952,-117.034128,2
+Shell,Shell_Ala_01,Atlanta,USA,33.879173,-84.378113,2
+Shell,Shell_Ala_02,Atlanta,USA,33.849524,-84.431672,1
+Shell,Shell_Ala_03,Atlanta,USA,33.804462,-84.414506,1
+Shell,Shell_Ala_04,Atlanta,USA,33.774217,-84.371247,1
+Shell,Shell_Ala_05,Atlanta,USA,33.750812,-84.445405,2
+Shell,Shell_Ala_06,Atlanta,USA,33.745103,-84.379487,2
+Shell,Shell_Ala_07,Atlanta,USA,33.760517,-84.536728,2
+Shell,Shell_Ala_08,Atlanta,USA,33.697129,-84.536042,1
+Shell,Shell_Ala_09,Atlanta,USA,33.681703,-84.400086,1
+BP,BP_Ala_01,Atlanta,USA,33.929735,-84.379487,2
+BP,BP_Ala_02,Atlanta,USA,33.869323,-84.457078,2
+BP,BP_Ala_03,Atlanta,USA,33.83853,-84.367128,2
+BP,BP_Ala_04,Atlanta,USA,33.748941,-84.379487,1
+Chevron,Chevron_Ata_01,Atlanta,USA,33.92274,-84.282671,1
+Chevron,Chevron_Ata_02,Atlanta,USA,33.76705,-84.529863,1
+Chevron,Chevron_Ata_03,Atlanta,USA,33.726512,-84.323869,2
+Chevron,Chevron_Ata_04,Atlanta,USA,33.682529,-84.396654,1
+Shell,Shell_Aus_01,Austin,USA,30.404037,-97.745891,1
+Shell,Shell_Aus_02,Austin,USA,30.388046,-97.646328,2
+Shell,Shell_Aus_03,Austin,USA,30.325241,-97.739025,2
+Shell,Shell_Aus_04,Austin,USA,30.271291,-97.789837,2
+Shell,Shell_Aus_05,Austin,USA,30.276035,-97.666927,1
+Shell,Shell_Aus_06,Austin,USA,30.23511,-97.739025,1
+Shell,Shell_Aus_07,Austin,USA,30.186452,-97.816616,2
+Shell,Shell_Aus_08,Austin,USA,30.18943,-97.818676,2
+Chevron,Chevron_Aus_01,Austin,USA,30.469159,-97.80563,2
+Chevron,Chevron_Aus_02,Austin,USA,30.354871,-97.723232,1
+Chevron,Chevron_Aus_03,Austin,USA,30.271291,-97.785404,1
+Chevron,Chevron_Aus_04,Austin,USA,30.173987,-97.798077,2
+Shell,Shell_DC_01,DC,USA,38.965474,-77.002608,2
+Shell,Shell_DC_02,DC,USA,38.955062,-77.070243,1
+Shell,Shell_DC_03,DC,USA,38.940644,-77.025954,1
+Shell,Shell_DC_04,DC,USA,38.928893,-77.976556,2
+Shell,Shell_DC_05,DC,USA,38.914736,-77.042434,2
+Shell,Shell_DC_06,DC,USA,38.900043,-76.986129,2
+Shell,Shell_DC_07,DC,USA,38.872784,-76.971023,1
+Shell,Shell_DC_08,DC,USA,38.821713,-77.001235,1
+BP,BP_DC_01,DC,USA,38.966374,-77.030075,1
+BP,BP_DC_02,DC,USA,38.92098,-77.001236,2
+BP,BP_DC_03,DC,USA,38.872349,-76.96965,1
+Shell,Shell_SM_01,Santa Monica,USA,34.044664,-118.453633,2
+Shell,Shell_SM_02,Santa Monica,USA,34.025234,-118.470284,1
+Shell,Shell_SM_03,Santa Monica,USA,34.012429,-118.483416,1
+Chevron,Chevron_SM_01,Santa Monica,USA,34.023951,-118.485905,2
+Chevron,Chevron_SM_02,Santa Monica,USA,34.028006,-118.518091,2
+Chevron,Chevron_SM_03,Santa Monica,USA,34.014418,-118.485733,2
+Arco,Arco_SM_01,Santa Monica,USA,34.007362,-118.476378,1
+Arco,Arco_SM_02,Santa Monica,USA,34.009497,-118.487278,1

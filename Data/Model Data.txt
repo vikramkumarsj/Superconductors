@@ -1,0 +1,76 @@
+Model data:
+
+y:  expected demand in one location around one shell station
+x1: sum(battery status of empty vehicles (< 33%))
+x2:  sum(  (battery status of nearest vehicles) - battery status of empty vehicles (< 33%))
+x3   weekday_flag ( No: 1 or Yes: 2)
+x4   Peak_hour_flag (No: 1 or Yes: 2)
+x5   temperature_cold_flag (No: 1 or Yes: 2)
+x6   Competitor_Near_Station_Flag (Yes: 1 or No: 2)
+x7:  No of vehicles with less battery
+x8:  No of vehicles with good battery status.
+
+
+For Model training:
+
+In real time: To use real time data once demand data if available.
+For simulation:  
+
+             y =    x1 * (x1/x2) * (x3/2) *  (x4/2)  * (x5/2) * (x6/2) 
+
+ example:  x1: 30 KW
+           x2: 40 KW  (77-33)  capacity= 100
+           X3: 2
+           x4: 2
+           x5: 1
+           x6: 1
+
+            y =  30* (30/40)* (2/2) * (2/2) * (1/2) * (1/2) = 5.6 KW
+
+Data agggregation1:
+                
+1. Merge electric vehicle data & station data based on city.
+2. calculate the distance between each vehicle and charging station.
+3. sort the data based on city & vehicleid
+4. keep the minimum distance data for each city & vehicleid
+5. create & update the weekday flag logic (! 0 or 6)
+6. create & update the temperature cold flag logic (<=15)
+7. calculate the battery remaining status of each vehicle
+8. calculate the power required status of each vehicle.
+
+
+Data agggregation2 (Based on aggregation 1):
+
+1. Aggregate the data based on charging station id & point_in_time. (Avg of temp, sum of battery pending, sum of power required, avg of distance)
+2. Outer join the data with shell charging stations to bring in Competitor_Near_Station_Flag
+
+
+
+Model Build (based data aggregation 2)
+
+1. Create y data based on formula.
+2. Take data for 5 cities.
+3. Build python based regression model.
+4. Save the model and test with remaining 2 cities data and validate.
+
+
+UI & Deploy:
+
+Integrate the test data.
+Integrate the model
+Build UI & Reports
+	Capacity vs Requirement report
+	Stations recommendation report
+	Power demand report
+Deploy in Cloud
+
+Presentation & Architecture:
+
+
+
+
+
+
+
+
+
