@@ -1,8 +1,7 @@
-streamlit
-pandas
-numpy
-time
-pydeck
-PIL
-matplotlib.pyplot
-pycaret
+streamlit==0.53.0
+pandas==1.1.0
+numpy==1.19.1
+pydeck==0.2.0
+Pillow==7.2.0
+matplotlib==3.3.0
+pycaret==2.0
