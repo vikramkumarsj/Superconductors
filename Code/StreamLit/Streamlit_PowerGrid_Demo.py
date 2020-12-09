@@ -17,19 +17,19 @@ import matplotlib.pyplot as plt
 import pycaret
 from pycaret.regression import *
 
-Model = load_model("C:/Users/Vikram.V.Kumar/Desktop/Advanced Analytics Practice/Hackathon/Model/GBR_VK")
+Model = load_model("Superconductors/Model/GBR_VK")
 
-image = Image.open('C:\\\\Users\\Vikram.V.Kumar\\Desktop\\Advanced Analytics Practice\\Hackathon\\Data\\Shell_Image.jpg')
+image = Image.open('Superconductors/Data/Shell_Image.jpg')
 st.image(image)
 st.title("Digital Insights for grid connected electric vehicle charging stations") 
 
 
 # Read Charging Stations Data
-charging_stations = pd.read_csv("C:\\Users\\Vikram.V.Kumar\\Desktop\\Advanced Analytics Practice\\Hackathon\\Data\\Charging_Stations.csv")
+charging_stations = pd.read_csv("Superconductors/Data/Charging_Stations.csv")
 charging_stations= pd.DataFrame(charging_stations)
 
 # Read electric Vehicles data
-electric_vehicles = pd.read_csv("C:\\Users\\Vikram.V.Kumar\\Desktop\\Advanced Analytics Practice\\Hackathon\\Data\\Electric_Vehicle_Charging_Data.csv")
+electric_vehicles = pd.read_csv("Superconductors/Data/Electric_Vehicle_Charging_Data.csv")
 electric_vehicles = pd.DataFrame(electric_vehicles)
 
 # Select data for analysis
@@ -469,7 +469,7 @@ if genre == 'Trend reports':
     
     option_Station = st.selectbox( "Which Station would you like to Analyze?", charging_stations.Station_ID.unique())
 
-    Demand_Trend = pd.read_csv("C:\\Users\\Vikram.V.Kumar\\Desktop\\Advanced Analytics Practice\\Hackathon\\Data\\Demand_Trend.csv")
+    Demand_Trend = pd.read_csv("Superconductors/Data/Demand_Trend.csv")
     Demand_Trend = Demand_Trend.loc[Demand_Trend['Place'] == option_city]
    
     st.subheader('Capacity @ Stations vs Predicted Demand Trend report')
