@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import pycaret
 from pycaret.regression import *
 
-Model = load_model("/app/Superconductors/Model/GBR_VK")
+Model = load_model("Superconductors//Model//GBR_VK")
 
 image = Image.open('/app/Superconductors/Data/Shell_Image.jpg')
 st.image(image)
